@@ -1,0 +1,16 @@
+{
+    "require": {
+        "twig/twig": "^2.4",
+        "phroute/phroute": "^2.1"
+    },
+    "autoload": {
+        "files": [
+            "./handle/__global.php"
+        ],
+    	"psr-4": {
+    		"Handle\\": "./handle",
+    		"Controller\\": "./app/controller",
+    		"Model\\": "./app/model"
+    	}
+    }
+}
